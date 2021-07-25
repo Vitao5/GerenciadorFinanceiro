@@ -1,0 +1,66 @@
+
+#data, #quantidade,#pagamento, #entrega{
+    width: 11rem;
+}
+
+#valor{
+    width: 11rem;
+    margin-right: 5rem;
+}
+.cabecalho-tabela{
+    background: #ddbca1;
+    text-align: center;
+}
+.imagem-logo{
+    margin-left: 40%;
+    max-width: 180px;
+    padding-bottom: 0.5rem;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.corpo-tabela{
+    background: rgb(247, 246, 245);
+    text-align: center;
+}
+.botao{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+#inserir, #downloadexcel{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:  #140a00;
+}
+
+.btn{
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+#produto{
+    width: 20rem;
+}
+
+.form-group{
+    margin-left: 20px;
+}
+
+.form{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+
+.form-control{
+    margin-bottom: .5rem;
+
+}
+
+.text-center{
+    margin-bottom: .7rem;
+}

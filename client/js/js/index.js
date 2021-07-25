@@ -1,6 +1,7 @@
 var campos = [
      document.querySelector('#data'),
      document.querySelector('#entrega'),
+     document.querySelector('#pagamento'),
      document.querySelector('#produto'),
      document.querySelector('#quantidade'),
      document.querySelector('#valor'),
@@ -21,15 +22,16 @@ document.querySelector(".form").addEventListener("submit", function(event){
    });
 
    var tdVolume = document.createElement('td');
-   tdVolume.textContent = campos[3].value * campos[4].value;
+   tdVolume.textContent = campos[4].value * campos[5].value;
    tr.appendChild(tdVolume);
    tbody.appendChild(tr);
 
-   campos[0].focus();
+
    campos[1].value = '';
    campos[2].value = '';
    campos[3].value = '';
    campos[4].value = '';
+   campos[5].value = '';
 });
 // finalizando a criação e inserção no DOM
 
